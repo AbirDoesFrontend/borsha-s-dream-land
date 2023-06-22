@@ -1,0 +1,23 @@
+.category-custom-bg a {
+    color: white;
+}
+
+.category-custom-bg a.active {
+    background-color: #ff7979;
+}
+
+.tabs {
+    cursor: pointer;
+}
+
+.tabpanel {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width : 600px){
+    .tabpanel {
+        flex-direction: column;
+        align-items: center;
+    }
+}

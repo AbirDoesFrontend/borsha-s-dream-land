@@ -1,0 +1,65 @@
+.logo {
+    border-radius: 50%;
+}
+
+.logo-name {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.navlink-custom-bg a {
+    color: white;
+}
+
+.navlink-custom-bg a.active {
+    background-color: #ff7979;
+}
+
+.logout-btn {
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #ff7979;
+    color: white;
+}
+
+.nav_section {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width : 600px) {
+    
+    .nav_section {
+        padding-right: 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        flex-direction: column;
+    }
+
+    .logo-name {
+        margin: 20px 0;
+    }
+
+    .nav-right-side {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .middle-nav {
+        margin-top: 20px;
+    }
+    .navbar-menu {
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}
